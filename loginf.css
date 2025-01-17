@@ -1,0 +1,55 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f4f4f4; /* Background color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: white; /* White background for form */
+    padding: 50px; /* Padding inside the container */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 300px; /* Fixed width */
+}
+
+/* Styles for form elements */
+label {
+    display: block; /* Labels on their own lines */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Styles for radio buttons */
+.radio-group {
+    margin-bottom: 15px; /* Space below radio group */
+}
+
+/* Styles for the submit button */
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #2f3430; /* Green background */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

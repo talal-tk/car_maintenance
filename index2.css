@@ -1,0 +1,135 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f4f6f9; /* Light background color */
+}
+
+/* Header */
+header {
+    background-color: #2f2f3a; /* Dark background color */
+    color: #ffffff; /* White text color */
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative; /* Position for the logout button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin: 0; /* Remove margin */
+    text-align: center; /* Center the title */
+}
+
+.logout {
+    background-color: #e84118; /* Logout button color */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 0.5rem 1.2rem; /* Button padding */
+    cursor: pointer; /* Pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    position: absolute; /* Position logout button */
+    right: 2rem; /* Move button to the right */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.logout:hover {
+    background-color: #c23616; /* Darker color on hover */
+}
+
+/* Sidebar */
+aside {
+    width: 220px; /* Sidebar width */
+    background-color: #2f2f3a; /* Dark background color */
+    color: #ffffff; /* White text color */
+    position: fixed; /* Fixed position */
+    height: 100%; /* Full height */
+    padding-top: 1rem; /* Top padding */
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+aside nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove padding */
+    
+}
+
+aside nav ul li {
+    margin: 1rem 0; /* Margin between list items */
+}
+
+aside nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none; /* No underline */
+    padding: 0.8rem 1.5rem; /* Link padding */
+    display: block; /* Block display for clickable area */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    font-size: 1rem; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+}
+
+aside nav ul li a:hover {
+    background-color:#4b4e6d; /* Darker color on hover */
+}
+
+/* Main Content */
+main {
+    margin-left: 240px; /* Margin for the sidebar */
+    padding: 2rem; /* Main content padding */
+    flex: 1; /* Flexible growth */
+    color: #333333; /* Dark text color */
+    background-color: #f4f6f9; /* Light background color */
+}
+
+main h2 {
+    color: #2f3640; /* Dark text color */
+    margin-bottom: 1rem; /* Margin below heading */
+}
+
+section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 1.5rem; /* Padding for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 1.5rem; /* Margin between sections */
+}
+
+section p {
+    font-size: 1rem; /* Font size for paragraphs */
+    color: #555555; /* Grey text color */
+}
+
+/* Buttons */
+button {
+    font-size: 1rem; /* Font size for buttons */
+    padding: 0.6rem 1.2rem; /* Padding for buttons */
+    cursor: pointer; /* Pointer on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly transparent on hover */
+}
+
+#issues_car{
+    justify-content: space-around space-evenly;
+}
+
+#AddEmployee {
+    text-align: center;
+  }
+
+  
+  
